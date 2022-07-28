@@ -10,47 +10,41 @@
     <title>Artisan Dragon</title>
 </head>
 <body>
-    <nav class="navbar is-transparent custNav">
+    <nav class="navbar custNav" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <div class="navbar-burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+         <h1>Artisan Dragon</h1>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
       
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <h1>Artisan Dragon</h1>
-            <a class="navbar-item navColor" href="https://bulma.io/">
+            <a class="navbar-item navColor">
               Home
             </a>
+      
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link navColor" href="https://bulma.io/documentation/overview/start/">
-                Docs
+              <a class="navbar-link navColor">
+                More
               </a>
-              <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                  Overview
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Sales
                 </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
-                  Modifiers
+                <a class="navbar-item">
+                  Crafts
                 </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                  Columns
-                </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                  Layout
-                </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-                  Form
+                <a class="navbar-item">
+                  Contact
                 </a>
                 <hr class="navbar-divider">
-                <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-                  Elements
-                </a>
-                <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                  Components
+                <a class="navbar-item">
+                  Report an issue
                 </a>
               </div>
             </div>
